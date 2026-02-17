@@ -99,10 +99,90 @@ section {
     text-transform: capitalize;
 }
 
-.carousel-1 {
-    display: flex;
+.two .carousel {
+    position: relative;
+    /* width: 90%; */
+    width: 100%;
+    overflow: hidden;
 }
 
-.track img{
-    width: 10px;
+.two .carousel .car-btn {
+    position: absolute;
+    z-index: 5;
+    padding: 5px;
+    border-radius: 100%;
+    background: rgb(0, 0, 0, .2);
+    border: none;
+    top: 35%;
+    color: rgba(245, 245, 220, .4);
+    font-weight: bold;
+    font-size: 2.5rem;
+    transition: all 200ms ease-in;
+}
+
+.two .carousel .car-btn:hover {
+    background: rgb(0, 0, 0, .5);
+    color: rgba(245, 245, 220, .7);
+}
+
+.two .carousel .car-btn#next {
+    right: 0;
+}
+
+.two .carousel .car-btn#prev {
+    left: 0;
+}
+
+.two .slides {
+    display: flex;
+    padding: 10px 0;
+    transition: transform .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.two .slide{
+    list-style: none;
+    box-shadow: 0 5px 5px  gray;
+    border-radius: 3px;
+    padding: 5px;
+    flex: 0 0 25%;
+}
+
+.two .img-div > img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 250px;
+    transition: all 200ms ease;
+}
+
+.two .img-div {
+    position: relative;
+}
+
+.two .opening, .two .price {
+    position: absolute;
+    z-index: 5;
+}
+
+.two .opening {
+    top: 0;
+}
+
+.two .price {
+    bottom: 0;
+}
+
+.two .slide .extra {
+    padding: 10px;
+    z-index: 5;
+}
+
+.two .icons {
+    width: 20px;
+    height: 20px;
+}
+
+.two .slide .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
