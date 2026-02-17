@@ -38,7 +38,7 @@ header div:last-child a{
 }
 
 .one {
-    background-image: url('./images/Hakasalmen_huvila-Marit_Henriksson.jpg');
+    background-image: url('./images/Hakasalmen_huvila-Marit_Henriksson.jpg') !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
