@@ -10,49 +10,76 @@
 </head>
 
 <body>
+
     <header>
-        <div>Square Homes</div>
+        <div><a href="#home">Square Homes</a></div>
         <div class="menu">
-            <a>home</a>
-            <a>contact</a>
-            <a>about</a>
-            <a>blog</a>
+            <a href="#home">home</a>
+            <a href="#properties">properties</a>
+            <a href="#services">services</a>
+            <a href="#agents">staff</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
         </div>
         <div>
-            <a>contact</a>
+            <a href="#contact">contact</a>
         </div>
     </header>
-    <section class="one">
-        <!-- newest on the market -->
-        <div class="one-text">
-            <h1>find your dream home</h1>
+
+    <section class="one" id="home">
+        <div class="one-div">
             <div>
-                <input type="text" name="" id="">
-                <button type="button">search</button>
+                <h1>Buy and sell real estate properties</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipising elit. Laboriosam assumenda ea quo cupiditate facere
+                    deleniti fuga officia.</p>
             </div>
         </div>
     </section>
-    <section class="two">
+
+    <section class="onepoint5 container">
+        <div class="head">
+            <div>
+                <h1>how it works</h1>
+            </div>
+        </div>
+        <div class="text container">
+            <div>
+                <img src="./images/icons/search property.png" alt="">
+                <h3>find property</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipising elit.</p>
+            </div>
+            <div>
+                <img src="./images/icons/buy property.png" alt="">
+                <h3>buy property</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipising elit.</p>
+            </div>
+            <div>
+                <img src="./images/icons/make investment.png" alt="">
+                <h3>make investment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipising elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="two container" id="properties">
         <!-- house types -->
-        <div>
-            <h2>newest on the market</h2>
+        <div class="container">
+            <h2 class="container subheading">properties</h2>
             <div class="carousel">
-                
-                    <button class="car-btn" id="prev">&#8606</button>
-                    <button class='car-btn' id="next">&#8608</button>
+                <button class="car-btn" id="prev">&#8606</button>
+                <button class='car-btn' id="next">&#8608</button>
                 <ul class="slides">
                     <li class="slide">
                         <div class="img-div">
-                            <div class="opening">new</div>
+                            <div class="opening new">new</div>
                             <div class="price">$750,000</div>
                             <img src="./images/Newly_developed_single-family_home_in_northern_Germany.jpg" alt="">
                         </div>
                         <div class="extra">
-                            <p>123 Oak Street</p>
+                            <p>123 Oak Street, San Fransisco, CA</p>
                             <div>
                                 <img src="./images/icons/bed.png" alt="" class="icons"> 5
                                 <img src="./images/icons/bathroom.png" alt="" class="icons"> 4
-                                <!-- <img src="./images/icons/roomsize.png" alt="" class="icons"> 40,000 sq ft -->
                             </div>
                             <div class="btn">
                                 <button class="details">View Details</button>
@@ -61,73 +88,364 @@
                     </li>
                     <li class="slide">
                         <div class="img-div">
-                            <div class="opening">new</div>
-                            <div class="price">$750,000</div>
+                            <div class="opening">Prices reduced</div>
+                            <div class="price">$800,000</div>
                             <img src="./images/Nordisches_Einfamilienhaus.jpg" alt="">
                         </div>
-
+                        <div class="extra">
+                            <p>546 MacArthur Street, San Fransisco, CA</p>
+                            <div>
+                                <img src="./images/icons/bed.png" alt="" class="icons"> 7
+                                <img src="./images/icons/bathroom.png" alt="" class="icons"> 4
+                            </div>
+                            <div class="btn">
+                                <button class="details">View Details</button>
+                            </div>
+                        </div>
                     </li>
                     <li class="slide">
                         <div class="img-div">
-                            <div class="opening">new</div>
-                            <div class="price">$750,000</div>
+                            <div class="opening">open house sunday</div>
+                            <div class="price">$500,000</div>
                             <img src="./images/Harriet_Phillips_Bungalow.jpg" alt="">
                         </div>
-
+                        <div class="extra">
+                            <p>342 Palm Street, San Fransisco, CA</p>
+                            <div>
+                                <img src="./images/icons/bed.png" alt="" class="icons"> 4
+                                <img src="./images/icons/bathroom.png" alt="" class="icons"> 2
+                            </div>
+                            <div class="btn">
+                                <button class="details">View Details</button>
+                            </div>
+                        </div>
                     </li>
                     <li class="slide">
                         <div class="img-div">
-                            <div class="opening">new</div>
-                            <div class="price">$750,000</div>
+                            <div class="opening new">new</div>
+                            <div class="price">$450,000</div>
                             <img src="./images/2017_Dom_nr_24a_w_Zabłociu_1.jpg" alt="">
                         </div>
-                        <div>
-                            <p>123 Oak Street</p>
-                            <div></div>
-                            <div class="btn"><button class="details"></button></div>
+                        <div class="extra">
+                            <p>123 Marshal Street, San Fransisco, CA</p>
+                            <div>
+                                <img src="./images/icons/bed.png" alt="" class="icons"> 3
+                                <img src="./images/icons/bathroom.png" alt="" class="icons"> 2
+                            </div>
+                            <div class="btn">
+                                <button class="details">View Details</button>
+                            </div>
                         </div>
 
                     </li>
                     <li class="slide">
                         <div class="img-div">
-                            <div class="opening">new</div>
-                            <div class="price">$750,000</div>
+                            <div class="opening new">new</div>
+                            <div class="price">$300,000</div>
                             <img src="./images/149MyrtleReedsburgWI.jpg" alt="">
                         </div>
-
+                        <div class="extra">
+                            <p>55 Slim Street, San Fransisco, CA</p>
+                            <div>
+                                <img src="./images/icons/bed.png" alt="" class="icons"> 3
+                                <img src="./images/icons/bathroom.png" alt="" class="icons"> 2
+                            </div>
+                            <div class="btn">
+                                <button class="details">View Details</button>
+                            </div>
+                        </div>
                     </li>
                     <li class="slide">
                         <div class="img-div">
-                            <div class="opening">new</div>
-                            <div class="price">$750,000</div>
+                            <div class="opening">open house saturday</div>
+                            <div class="price">$500,000</div>
                             <img src="./images/Gingerbread_House_Essex_CT.jpg" alt="">
                         </div>
-
+                        <div class="extra">
+                            <p>337 Bradley Street, San Fransisco, CA</p>
+                            <div>
+                                <img src="./images/icons/bed.png" alt="" class="icons"> 4
+                                <img src="./images/icons/bathroom.png" alt="" class="icons"> 3
+                            </div>
+                            <div class="btn">
+                                <button class="details">View Details</button>
+                            </div>
+                        </div>
                     </li>
                     <li class="slide">
                         <div class="img-div">
-                            <div class="opening">new</div>
+                            <div class="opening">Prices Reduced</div>
                             <div class="price">$750,000</div>
                             <img src="./images/23_Waimea_Road,_Lindfield,_New_South_Wales_(2011-04-28).jpg" alt="">
                         </div>
-
+                        <div class="extra">
+                            <p>123 King Street, San Fransisco, CA</p>
+                            <div>
+                                <img src="./images/icons/bed.png" alt="" class="icons"> 5
+                                <img src="./images/icons/bathroom.png" alt="" class="icons"> 4
+                            </div>
+                            <div class="btn">
+                                <button class="details">View Details</button>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
-    <section>
-        <!-- area of expertise -->
-        <div style="background-color: aqua; height: 45vh;"></div>
-    </section>
-    <section>
-        <!-- agents -->
-    </section>
-    <section>
-        <!-- customers testimonials -->
-    </section>
-    <footer>
 
+    <section class="three container" id="services">
+        <!-- area of expertise -->
+        <div class="container">
+            <h2 class="container subheading">services offered</h2>
+            <div class="expertise container">
+                <div class="card3">
+                    <div class="img-div">
+                        <div class="text">
+                            <h3>surban retreat?</h3>
+                        </div>
+                        <img src="./images/Townhomes_in_Fox_River_Grove,_Illinois.jpg" alt="">
+                    </div>
+                    <div class="extra">
+                        <h3>buying?</h3>
+                        <p>Browse Listings</p>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="img-div">
+                        <div class="text">
+                            <h3>Victorian architecture?</h3>
+                        </div>
+                        <img src="./images/Victorian_terrace_on_canterbury_road,_Middle_Park.jpg" alt="">
+                    </div>
+                    <div class="extra">
+                        <h3>selling?</h3>
+                        <p>Get a Free Home Valuation</p>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="img-div">
+                        <div class="text">
+                            <h3>WaterFront properties?</h3>
+                        </div>
+                        <img src="./images/Condos_and_the_Singapore_Flyer_by_the_Kallang_River.jpg" alt="">
+                    </div>
+                    <div class="extra">
+                        <h3>renting?</h3>
+                        <p>Find a Rental</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="four container" id="agents">
+        <!-- agents -->
+        <div class="container">
+            <h2 class="container subheading">Our Staff</h2>
+            <div class="agents container">
+                <div>
+                    <div class="img-div">
+                        <img src="./images/people/agents/person_1.jpg" alt="">
+                        <div class="desc">
+                            <div>
+                                <h3>Natasha Penn</h3>
+                                <p>CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div">
+                        <img src="./images/people/agents/person_2.jpg" alt="">
+                        <div class="desc">
+                            <div>
+                                <h3>Andre Johnson</h3>
+                                <p>VP Marketing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div">
+                        <img src="./images/people/agents/person_8.jpg" alt="">
+                        <div class="desc">
+                            <div>
+                                <h3>Camille West</h3>
+                                <p>VP ICT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div">
+                        <img src="./images/people/agents/person_4.jpg" alt="">
+                        <div class="desc">
+                            <div>
+                                <h3>Napoleone Bonarparte</h3>
+                                <p>VP Sales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div">
+                        <img src="./images/people/agents/person_5.jpg" alt="">
+                        <div class="desc">
+                            <div>
+                                <h3>George Franklin</h3>
+                                <p>VP Finance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div">
+                        <img src="./images/people/agents/person_6.jpg" alt="">
+                        <div class="desc">
+                            <div>
+                                <h3>Joseph Adams</h3>
+                                <p>Managing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="five container" id="about">
+        <div class="container">
+            <h2 class="container subheading">Who We Are</h2>
+            <div class="about container">
+                <div class="img">
+                    <img src="./images/Endeavour_Luxury_Condominiums_on_Clear_Lake.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h3>The best real estate company</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipising elit.</p>
+                    <p>Est qui eos quasi ratione nostrum exepturi id recusandae fugit omnis ullam pariatur itaque nisi
+                        voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+                    <ul>
+                        <li>Placeat maxime anime minus</li>
+                        <li>Dolore qui placeat maxime</li>
+                        <li>Consectetur adipising</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Placeat molestias animi</li>
+                    </ul>
+                    <div>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="statistics container">
+                <div>
+                    <div class="num">305</div>
+                    <div class="desc">area <br>population</div>
+                </div>
+                <div>
+                    <div class="num">1,090</div>
+                    <div class="desc">total <br>properties</div>
+                </div>
+                <div>
+                    <div class="num">209</div>
+                    <div class="desc">average <br>house</div>
+                </div>
+                <div>
+                    <div class="num">67</div>
+                    <div class="desc">total <br>branches</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="six container" id="contact">
+        <!-- blog -->
+        <div class="container">
+            <h2 class="container subheading">Contact Us</h2>
+            <div class="contact container">
+                <div class="contact-form container">
+                    <h3>contact form</h3>
+                    <div>
+                        <div>
+                            <div>
+                                <label for="fname">first name</label>
+                                <input type="text" name="fname" id="">
+                            </div>
+                            <div>
+                                <label for="lname">last name</label>
+                                <input type="text" name="lname" id="">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="">
+                        </div>
+                        <div>
+                            <label for="subject">subject</label>
+                            <input type="text" name="subject" id="">
+                        </div>
+                        <div>
+                            <label for="message">message</label>
+                            <textarea name="message" id=""
+                                placeholder="Write your notes or questions here.."></textarea>
+                        </div>
+                        <div>
+                            <input type="button" value="send message">
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-desc">
+                    <div class="container">
+                        <div>
+                            <h3>Address</h3>
+                            <p id="add">203 Fake St. Mountain View, San Francisco, California, USA</p>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 434 5342 345</p>
+                        </div>
+                        <div>
+                            <h3>Email Address</h3>
+                            <p>youremail@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div class="footer-item">
+                <div>
+                    <h3>About Stated</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipising elit. Neque facere laudantium magnam voluptatum
+                        autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                </div>
+                <div class="links">
+                    <h3>Quick Links</h3>
+                    <ol>
+                        <li>Properties</li>
+                        <li>Staff</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact Us</li>
+                    </ol>
+                </div>
+                <div class="newsletter">
+                    <h3>Subscribe Newsletter</h3>
+                    <div>
+                        <input type="text" placeholder="Enter Email">
+                        <button>Send</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p>Copyright &copy2026 All rights reserved | This template made by BlackWakhu</p>
+            </div>
+        </div>
     </footer>
     <script src="function.js"></script>
 </body>
